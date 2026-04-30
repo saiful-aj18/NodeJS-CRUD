@@ -42,19 +42,20 @@ const fs = require("fs");
 
 // ---------### Checking File Existence-----------
 
- fs.access("output.txt", fs.constants.F_OK, (err) => {
-   if (err) {
-     console.log("File does not exist");
-   } else {
-     console.log("File exists");
-   }
- });
+ //fs.access("output.txt", fs.constants.F_OK, (err) => {
+ //  if (err) {
+ //    console.log("File does not exist");
+ //  } else {
+ //    console.log("File exists");
+  // }
+// });
 
 //------------ ### Renaming Files-------------------
- fs.rename("oldname.txt", "newname.txt", (err) => {
-  if (err) throw err;
-   console.log("File renamed successfully.");
- });
+
+ //fs.rename("oldname.txt", "newname.txt", (err) => {
+ //  if (err) throw err;
+ //   console.log("File renamed successfully.");
+ // });
 
 
 
