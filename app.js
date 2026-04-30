@@ -38,6 +38,7 @@ const fs = require("fs");
  //if (err) throw err;
  // console.log("File deleted!");
 //});
+//fs.unlinkSync("outputss.txt");
 
 // ---------### Checking File Existence-----------
 
