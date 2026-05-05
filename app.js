@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-//------- ### Read File----------
+//------- ### Read File---------
 
 //const data = fs.readFileSync("file.txt", "utf8");
 // console.log(data);
